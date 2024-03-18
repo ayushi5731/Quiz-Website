@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
 /*----------Front page-----------*/
 h1{
     margin-top:200px;
@@ -35,14 +36,23 @@ a{
 
 
 
+=======
+>>>>>>> 4022014d3dffc5077ebfd3c9ba6f94a1a3b68530
 /*---------------signup page-------------- */
 h2{
     margin-top:70px;
     margin-bottom:2px;
+<<<<<<< HEAD
     color:White;
     text-align:center;
     font-size: 50px;
     /* border:2px solid white; */
+=======
+    color:white;
+    text-align:center;
+    font-size: 50px;
+    
+>>>>>>> 4022014d3dffc5077ebfd3c9ba6f94a1a3b68530
 }
 h4{
     margin-top:3px;
@@ -57,11 +67,19 @@ h4{
 ::placeholder {
     color:white;
     opacity: 1; /* Firefox */
+<<<<<<< HEAD
 }
 
 ::-ms-input-placeholder { /* Edge 12 -18 */
     color:white;
 }
+=======
+  }
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+    color:white;
+  }
+>>>>>>> 4022014d3dffc5077ebfd3c9ba6f94a1a3b68530
 .hero {
     position: relative;
     width: 100%;
@@ -135,6 +153,7 @@ form {
 }
 a{
     text-decoration: none;
+<<<<<<< HEAD
     color:white;
 }
 /* --------------Signup Page --------------- */
@@ -254,3 +273,95 @@ a {
     color:white;
 }
 /*----------------Login Page---------------*/
+=======
+    color: white;
+}
+/* ------------ --------------- */
+
+/*---------hello page---------- */
+.icon{
+    height:40px;
+    width:40px;
+    
+    border-radius:50%;
+    border: 2px solid black;
+    /* padding-top:30px; */
+    display:inline-block;
+    margin-right:3px;
+    background-color:pink;
+    
+}
+.icon-pic{
+    /* height:200px; */
+    /* width:200px; */
+    padding:12px;
+    font-size: larger;
+    /* z-index:1; */
+    /* border:2px solid red; */
+    /* display:inline-block; */
+    /* background-color: #ca4de3; */
+
+}
+
+
+.nav{
+    padding-top:10px;
+    padding-left:30px;
+    height:50px;
+    width:100%;
+    border:2px solid black;
+   
+}
+.hello{
+    /* border:2px solid red; */
+    display:inline-block;
+    color:white;
+}
+.phello{
+    /* padding:px; */
+    padding-top:4px;
+    margin:4px;
+    border:2px solid blueviolet;
+    font-size:20px;
+    width:100%;
+    color:white;
+}
+.container-hello{
+    height:200px;
+    width:100%;
+    border:2px solid red;
+    /* background-color: #9C33B2; */
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position:fixed;
+    bottom:0;
+}
+.element-hello{
+    height:150px;
+    width:150px;
+    background-color: pink;
+    border:2px solid black;
+    border-radius: 10px;
+    /* line-height: 0.3; */
+    /* display:flex;
+    align-items: flex-end; */
+    
+
+}
+.element-inside{
+    border:2px solid red;
+    position:relative;
+    bottom:10px;
+}
+img{
+    height:50px;
+    width:50px;
+    
+}
+
+
+
+
+
+>>>>>>> 4022014d3dffc5077ebfd3c9ba6f94a1a3b68530

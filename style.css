@@ -1,39 +1,194 @@
-*{
-  margin: 0;
-  padding: 0;
+body, html {
+    margin: 0;
+    padding: 0;
 }
-  .main_section{
-    position: fixed;
+/*---------------signup page-------------- */
+h2{
+    margin-top:70px;
+    margin-bottom:2px;
+    color:white;
+    text-align:center;
+    font-size: 50px;
+    
+}
+h4{
+    margin-top:3px;
+    color:white;
+    text-align:center;
+    font-size: 15px;
+    /* border:2px solid white; */
+    position:relative;
+    top:0px;
+
+}
+::placeholder {
+    color:white;
+    opacity: 1; /* Firefox */
+  }
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+    color:white;
+  }
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
-    /* min-height: 100%; */
-    height:100%;
-    background-size:contain;
-    overflow: hidden;
-  }
+    min-height: 100%;
+    z-index: -1;
+}
 
-  .content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+.content {
+    width:100vh;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: rgba(0, 0, 0, 0.5); */
     color: #f1f1f1;
-    width: 100%;
     padding: 20px;
-  }
-  
-  /* Style the button used to pause/play the video */
-  #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  #myBtn:hover {
-    background: #ddd;
-    color: black;
-  }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    width: 300px; /* Adjust the width as needed */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:100px;
+}
+.inputs{
+    width:100%;
+    height:20px;
+    margin:4px;
+    border-radius:30px;
+    padding:10px;
+    text-align:center;
+    background-color:#9C33B2;
+    color:white;
+    font-size:20px;
+    box-shadow: 1px 1px 2px white;
+}
+.inputs:hover{
+    box-shadow: 3px 3px 7px palevioletred ;
+    /* background-color: pink; */
+    color:black;
+
+}
+
+.btn{
+    background-color:#9C33B2;
+    width:50%;
+    margin:10px;
+    padding:8px;
+    color:white;
+    border-radius:30px;
+
+}
+.btn:hover{
+    background-color: pink;
+    color:black;
+    box-shadow:2px 2px 3px palevioletred;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* ------------ --------------- */
+
+/*---------hello page---------- */
+.icon{
+    height:40px;
+    width:40px;
+    
+    border-radius:50%;
+    border: 2px solid black;
+    /* padding-top:30px; */
+    display:inline-block;
+    margin-right:3px;
+    background-color:pink;
+    
+}
+.icon-pic{
+    /* height:200px; */
+    /* width:200px; */
+    padding:12px;
+    font-size: larger;
+    /* z-index:1; */
+    /* border:2px solid red; */
+    /* display:inline-block; */
+    /* background-color: #ca4de3; */
+
+}
+
+
+.nav{
+    padding-top:10px;
+    padding-left:30px;
+    height:50px;
+    width:100%;
+    border:2px solid black;
+   
+}
+.hello{
+    /* border:2px solid red; */
+    display:inline-block;
+    color:white;
+}
+.phello{
+    /* padding:px; */
+    padding-top:4px;
+    margin:4px;
+    border:2px solid blueviolet;
+    font-size:20px;
+    width:100%;
+    color:white;
+}
+.container-hello{
+    height:200px;
+    width:100%;
+    border:2px solid red;
+    /* background-color: #9C33B2; */
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position:fixed;
+    bottom:0;
+}
+.element-hello{
+    height:150px;
+    width:150px;
+    background-color: pink;
+    border:2px solid black;
+    border-radius: 10px;
+    /* line-height: 0.3; */
+    /* display:flex;
+    align-items: flex-end; */
+    
+
+}
+.element-inside{
+    border:2px solid red;
+    position:relative;
+    bottom:10px;
+}
+img{
+    height:50px;
+    width:50px;
+    
+}
+
+
+
+
+

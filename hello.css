@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:white;
+}
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+.fa-user{
+    height:35px;
+    width:35px;
+    /* border:2px solid white; */
+    padding-left:25px;
+    padding-top:30px;
+    margin:20px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink; */
+    background-color: #5a2866;
+  }
+  .navbar{
+    display:flex;
+    /* border:2px solid orange; */
+    height:100px;
+  }
+  .icon i {
+    font-size: 24px; /* Adjust the font size as needed */
+    padding:18px;
+    
+}
+.para{
+    height:30px;
+    width:130px;
+    /* border:2px solid white; */
+    padding-bottom:7px;
+    font-size:20px;
+    margin-top:38px;
+    text-align: center;
+    border-radius:25px;
+    background-color: #5a2866;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid{
+    padding:17px;
+    font-size: 20px;
+}
+.cards{
+    height:300px;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    /* border:2px solid white; */
+   
+}
+.card1{
+    height:200px;
+    width:180px;
+    /* border:2px solid white; */
+    border-radius:20px;
+    text-align: center;
+    background-color: #5a2866;
+  
+}
+.card1:hover{
+    box-shadow:9px 9px 10px black;
+}
+.card1 img{
+    height: 100px;
+    width:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+ 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /*---------------signup page-------------- */
 h2{
@@ -223,93 +224,112 @@ form {
     box-shadow:2px 2px 3px palevioletred;
     text-decoration: none;
 }
-a {
-    text-decoration: none;
-    color:white;
+=======
+body {
+  margin: 0;
+  padding: 0;
 }
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero h1{ 
+  margin-bottom: 8px;
+  padding-top:20px;
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+.hero h4{
+  margin-top:10px;
+  margin-bottom:15px;
+  font-size:25px;
+  color: white;
+  text-align: center;
+}
+
+.inputs {
+  background-color: #9c33b2;
+  color: white;
+  padding: 8px 6px;
+  border-radius: 25px;
+  margin: 7px auto;
+  height: 30px;
+  width: 350px;
+  border: 2px solid black;
+  display: block;
+}
+
+.inputs:hover {
+  box-shadow: 2px 2px 7px silver;
+}
+
+::placeholder {
+  color: whitesmoke;
+  opacity: 1;
+  text-align: center;
+  font-size: 16px;
+}
+
+.btn {
+  background-color: #9c33b2;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 25px;
+  margin: 7px auto;
+  height: 30px;
+  width: 100px;
+  border: 2px solid black;
+  display: block;
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 7px silver;
+}
+
+>>>>>>> 278c1c5afeb81c2ebe9095aedf5b6730b3e23316
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+<<<<<<< HEAD
 /*----------------Login Page---------------*/
     
 /* ------------ --------------- */
+=======
+>>>>>>> 278c1c5afeb81c2ebe9095aedf5b6730b3e23316
 
-/*---------hello page---------- */
-.icon{
-    height:40px;
-    width:40px;
-    
-    border-radius:50%;
-    border: 2px solid black;
-    /* padding-top:30px; */
-    display:inline-block;
-    margin-right:3px;
-    background-color:pink;
-    
-}
-.icon-pic{
-    /* height:200px; */
-    /* width:200px; */
-    padding:12px;
-    font-size: larger;
-    /* z-index:1; */
-    /* border:2px solid red; */
-    /* display:inline-block; */
-    /* background-color: #ca4de3; */
+.anchorpg3 {
+  display: block;
+  text-align: center;
+  height:20px;
+  width:200px;
 
 }
 
-
-.nav{
-    padding-top:10px;
-    padding-left:30px;
-    height:50px;
-    width:100%;
-    border:2px solid black;
-   
-}
-.hello{
-    /* border:2px solid red; */
-    display:inline-block;
-    color:white;
-}
-.phello{
-    /* padding:px; */
-    padding-top:4px;
-    margin:4px;
-    border:2px solid blueviolet;
-    font-size:20px;
-    width:100%;
-    color:white;
-}
-.container-hello{
-    height:200px;
-    width:100%;
-    border:2px solid red;
-    /* background-color: #9C33B2; */
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position:fixed;
-    bottom:0;
-}
-.element-hello{
-    height:150px;
-    width:150px;
-    background-color: pink;
-    border:2px solid black;
-    border-radius: 10px;
-    /* line-height: 0.3; */
-    /* display:flex;
-    align-items: flex-end; */
-    
-
-}
-.element-inside{
-    border:2px solid red;
-    position:relative;
-    bottom:10px;
-}
-img{
-    height:50px;
-    width:50px;
-    
+p {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
 }
 
+<<<<<<< HEAD
+=======
+
+#myVideo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+>>>>>>> 278c1c5afeb81c2ebe9095aedf5b6730b3e23316

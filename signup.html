@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup</title>
+    <title>Signup</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="hero">
-        <h2>Sign Up </h1>
+        <h1>Sign Up</h1>
         <h4>Create an account</h4>
 
         <div class="content">
-            <!-- <h2>Sign Up </h2>
-            <h4>Create an account</h4> -->
             <form action="/server">
-                <input type="text" class="inputs" name="username" id="username" placeholder="enter your username">
-                <input type="email" class="inputs"name="email" id="email" placeholder="enter your email ">
-                <input type="password" class="inputs"name="password" id="password" placeholder="create a password">
-                <input type="password" class="inputs"name="password" id="password" placeholder="confirm password">
-                <!-- <button class="btn">Sign Up</button> -->
-                <button class="btn"><a href="hello.html">Sign Up</a></button>
+                <div>
+                    <input type="text" class="inputs" name="username" id="username" placeholder="Enter your username">
+                </div>
+                <div>
+                    <input type="email" class="inputs" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div>  
+                    <input type="password" class="inputs" name="password" id="password" placeholder="Create a password">
+                </div>
+                <div>
+                    <input type="password" class="inputs" name="password" id="confirm-password" placeholder="Confirm password">
+                </div>
+                <!-- <button class="btn" type="submit">Sign Up</button> -->
+                <a href="hello.html" class="btn anchorpg3">Sign Up</a>
                 <p>or</p>
-                <!-- <button class="btn">Sign in with google</button> -->
-                <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&hl=en_GB&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1443169118%3A1709794667569420&theme=glif" class="btn anchorpg3">Sign in with google</a>
+                <a href="https://accounts.google.com/v3/signin/identifier?authuser=0&continue=https%3A%2F%2Fmyaccount.google.com%2F&ec=GAlAwAE&hl=en_GB&service=accountsettings&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1443169118%3A1709794667569420&theme=glif" class="btn anchorpg3">Sign in with Google</a>
             </form>
         </div>
         <video autoplay muted loop id="myVideo">
             <source src="animation.mp4" type="video/mp4">
         </video>
-
-    </div >
-    
+    </div>
 </body>
 </html>

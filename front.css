@@ -1,0 +1,47 @@
+.hero {
+    position: relative;
+    height: 100vh;
+
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-bottom: 10px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 5em;
+    color: white;
+    font-style: oblique;
+    padding-bottom: 5px;
+    
+}
+
+.btn {
+    padding-top:5px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #84268d;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: #743075;
+}
